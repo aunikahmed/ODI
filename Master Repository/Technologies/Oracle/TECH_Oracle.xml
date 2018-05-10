@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="Yiy5Xe9jc/WLgPFH/uYByg==" exportKeySalt="a8bab50f-0c44-4213-a762-5f64db3704f6" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="Ot/XtNg5ckTVD5OriIR+Iw==" exportKeySalt="94ba0d9c-f28a-4261-bab3-f5e430b02abe" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpTechno">
 		<Field name="CatalogTerm" type="java.lang.String">null</Field>
 	<Field name="ColAliasWord" type="java.lang.String"><![CDATA[AS]]></Field>
@@ -36,7 +36,7 @@
 	<Field name="GetSeqRequest" type="java.lang.String"><![CDATA[select %SCHEMA.%OBJECT.nextval from dual]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[e9120718-5b1e-3e9c-b3b9-28317b288494]]></Field>
 	<Field name="IndCatalog" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IndChange" type="java.lang.String">null</Field>
 	<Field name="IndDserver" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndFileParam" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndJoinCapMixed" type="java.lang.String"><![CDATA[0]]></Field>
@@ -26368,6 +26368,14 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[74364f56-1b8c-4120-9270-2fea48a0f9e9]]></Field>
 	<Field name="Version" type="java.lang.String"><![CDATA[dda23ed83d48aacec2b1e0d041cf21e4f33b4a97]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[Logical Architecture/LSC_ODI_TARGET.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpLschema]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[ODI_REPO]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[77e5a26d-500f-48b6-b459-63249d41bc7a]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[e18b1f83bce29c6868193b2fcc396240e3577844]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Logical Architecture/LSC_ODI_REPO.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
 		<Field name="Type" type="java.lang.String"><![CDATA[SnpLschema]]></Field>
